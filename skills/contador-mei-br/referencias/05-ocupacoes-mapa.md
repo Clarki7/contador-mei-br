@@ -1,0 +1,34 @@
+# Mapa "quero fazer X" para ocupação MEI (internet, tecnologia, conteúdo, serviços)
+
+Base: Anexo XI da Res. CGSN 140/2018 vigente (PDF da Receita: https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf), conferido em 23/11/2026. Regras e fontes: `04-ocupacoes-regras.md`. CNAE e ISS/ICMS: `../dados/ocupacoes-mei.csv`.
+
+Legenda da coluna Veredito: **CABE** = há ocupação com esse nome ou equivalente exato; **PARCIAL** = só parte do que a pessoa faz cabe; **NÃO CABE** = precisa de ME (Simples Nacional, em regra Anexo III ou V); **CINZA** = o Anexo XI não responde de forma direta, confirmar com contador. A coluna Fonte diz se é leitura direta do Anexo XI ou dedução minha.
+
+| # | Quero fazer | Veredito | Ocupação MEI mais próxima (CNAE) | Observação | Fonte |
+|---|---|---|---|---|---|
+| 1 | Social media / gestão de redes de clientes | NÃO CABE | nenhuma | Cai em publicidade/agenciamento/consultoria, atividades do Anexo V (art. 25, § 1º, V, "u", "v", "w"). Não há ocupação de social media. Precisa de ME. | Anexo XI (ausência) + art. 25 § 1º V |
+| 2 | Editor de vídeo (freelancer) | CABE | Editor(a) de vídeo (5912-0/99) | Pós-produção de vídeos. Se também filma eventos, ver caso 12. | Anexo XI |
+| 3 | Designer gráfico / UI-UX / web designer | NÃO CABE | nenhuma | "Design" está na lista do Anexo V. Única adjacência: serigrafista, cliquerista, que são gráfica física, não design. Precisa de ME. | Anexo XI (ausência) + art. 25 § 1º V "r" |
+| 4 | Programador / desenvolvedor sob encomenda / freelancer de sites | NÃO CABE | nenhuma | Nenhum CNAE 6201 a 6209 no Anexo XI. Precisa de ME. | Anexo XI (ausência) |
+| 5 | Criar e vender app, SaaS ou software próprio | NÃO CABE | nenhuma | Mesmo motivo do caso 4, e startup é vedada ao MEI (art. 100, § 1º-C, IV). | Anexo XI + art. 100 § 1º-C |
+| 6 | Influenciador digital / criador de conteúdo (publis, AdSense, parcerias) | NÃO CABE (CINZA) | nenhuma específica | Não existe ocupação "influenciador" nem "produtor de conteúdo". Receita de publicidade/divulgação remete a publicidade (Anexo V). Alguns criadores usam ocupações de arte (cantor/músico 9001-9/02, humorista 9001-9/01) só se de fato exercem aquilo; usar outra só para caber é risco. Confirmar com contador. | Dedução minha a partir do Anexo XI; sem fonte oficial específica |
+| 7 | Suporte técnico presencial de computador/celular (conserto, formatação, montagem) | CABE | Técnico(a) de manutenção de computador (9511-8/00); de telefonia (9512-6/00) | Cobre reparo de hardware e equipamentos. | Anexo XI |
+| 8 | Suporte de TI remoto, help desk, consultoria de TI, gestão de servidores | NÃO CABE | nenhuma (só vale a parte física do caso 7) | "Suporte e análises técnicas e tecnológicas" e "consultoria" são Anexo V. | Anexo XI (ausência) + art. 25 § 1º V "r","u" |
+| 9 | Instalar rede/cabeamento de computadores | CABE | Instalador(a) de rede de computadores (6190-6/99) | | Anexo XI |
+| 10 | Dar aula ou treinamento (informática, idiomas, gerencial, concursos, arte, música) | CABE | Instrutor(a) de informática (8599-6/03); de idiomas (8593-7/00); de cursos gerenciais (8599-6/04); de cursos preparatórios (8599-6/05); de arte e cultura (8592-9/99); de música (8592-9/03) | Escolher o tema que se ensina de verdade. Mentoria, coaching e consultoria não estão no Anexo XI. Aulas particulares de outras matérias (escolar, reforço) não têm ocupação específica. | Anexo XI |
+| 11 | Vender curso online gravado / infoproduto (Hotmart, Kiwify etc.) | CINZA | Instrutor do tema (caso 10), se a pessoa de fato ensina | O Anexo XI trata de instrução como serviço. Não achei orientação oficial sobre infoproduto gravado/licenciamento de conteúdo digital. Tratar como risco e confirmar com contador. | Dedução minha; sem fonte oficial específica |
+| 12 | Fotógrafo / videomaker de eventos | CABE | Fotógrafo(a) (7420-0/01); Filmador(a) (7420-0/04, filmagem de festas e eventos); fotógrafo aéreo ou submarino (7420-0/02) | Filmagem publicitária ou institucional para empresas não está descrita; a ocupação diz festas e eventos. | Anexo XI |
+| 13 | Afiliado (comissão por indicar produtos) | NÃO CABE (CINZA) | nenhuma | Intermediação de negócios e agenciamento são Anexo V; "Promotor(a) de vendas" (7319-0/02) é panfletagem e promoção presencial, não afiliação. | Anexo XI (ausência) + art. 25 § 1º V "s","w"; adequação do 7319-0/02 é dedução minha |
+| 14 | Loja virtual / e-commerce de produto próprio ou revenda | CABE (com ressalva) | "Comerciante de ..." conforme o produto (ex.: informática 4751-2/01; vestuário 4781-4/00; artigos esportivos 4763-6/02; cosméticos 4772-5/00; suvenires e artesanato 4789-0/01) | O CNAE de comércio varejista pela internet (4791-7) **não** está no Anexo XI; o MEI usa o CNAE do produto. Que o MEI possa vender por canal online com esse CNAE é entendimento corrente, mas não achei página oficial que o diga. Confirmar. | Anexo XI (ausência de 4791-7); ressalva é dedução minha |
+| 15 | Dropshipping | CINZA | Comerciante do produto (caso 14) | Se for só intermediar a venda sem ter o produto, pode virar intermediação de negócios (Anexo V). | Dedução minha |
+| 16 | Revender eletrônicos, celulares, periféricos | CABE | Comerciante de equipamentos e suprimentos de informática (4751-2/01); de equipamentos de telefonia e comunicação (4752-1/00); de eletrodomésticos e áudio e vídeo (4753-9/00) | | Anexo XI |
+| 17 | Digitador, transcrição, digitação de documentos | CABE | Digitador(a) (8219-9/99) | Assistente virtual completa (agenda, atendimento, gestão) ultrapassa a digitação. | Anexo XI; limite de escopo é dedução minha |
+| 18 | Redator, copywriter, tradutor, revisor de textos | NÃO CABE | nenhuma | Tradução e interpretação, jornalismo e publicidade são Anexo V. | Anexo XI (ausência) + art. 25 § 1º V "p","v" |
+| 19 | Músico, cantor, DJ, humorista, animador de festas | CABE | Cantor(a)/músico(a) (9001-9/02); DJ ou VJ (9001-9/06); humorista e contador de histórias (9001-9/01); animador(a) de festas (9329-8/99) | Continuam permitidos (a exclusão de 2019 foi revogada). Personal trainer não está no Anexo XI desde 2018. | Anexo XI |
+| 20 | Streamer / lives de jogos, podcaster, youtuber de entretenimento | NÃO CABE (CINZA) | nenhuma específica | Não há ocupação de streamer, podcaster ou youtuber. Mesma lógica do caso 6. | Dedução minha a partir do Anexo XI |
+
+## Pontos que valem em todos os casos
+
+- O MEI só pode registrar o que realmente faz (até 1 principal + 15 secundárias): Portal do Empreendedor, https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei/quais-as-ocupacoes-que-podem-ser-mei
+- Quem faz as duas coisas (parte cabe, parte não) não pode ficar como MEI só pela parte permitida: vale o art. 100, caput e § 1º-C, I, da Res. CGSN 140 ("apenas as ocupações constantes do Anexo XI").
+- Casos CINZA: a skill deve dizer ao usuário que não há enquadramento oficial claro e recomendar contador, em vez de escolher um CNAE "que dá".
