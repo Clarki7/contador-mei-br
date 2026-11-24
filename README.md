@@ -8,11 +8,15 @@ Milhões de brasileiros são MEI, e a maioria não tem contador. Quem trava numa
 
 ## O que ela responde
 
+- **Check-up do MEI:** você responde 5 perguntas e recebe as suas pendências em ordem de urgência, com onde resolver e até quando.
+- **Passo a passo de tarefas:** gerar o DAS, débito automático, parcelar, dívida ativa no Regularize, entregar a DASN, emitir nota no Emissor Nacional, alterar dados, dar baixa.
+- **Perdão de dívidas (LC 238):** quem tem direito, o que entra (só o INSS) e a condição de pagar em dia de janeiro a junho de 2027.
 - **Ocupação e CNAE:** qual ocupação marcar, se a sua atividade cabe no MEI, e a lista oficial das 471 ocupações com busca.
 - **Alterar dados:** onde trocar ocupação e endereço (Portal do Empreendedor, sem Junta Comercial).
 - **DAS:** valores de 2026, vencimento, parcelamento e o que acontece se atrasar.
 - **DASN-SIMEI:** prazo, o que informar e multa.
-- **Nota fiscal:** quando é obrigatória e a NFS-e nacional.
+- **Nota fiscal:** quando é obrigatória, o que muda em 2027 (pessoa física, nota mensal consolidada) e IBS/CBS.
+- **Imposto de renda, benefícios e sócio:** a conta da parte isenta do lucro, Bolsa Família, BPC, seguro-desemprego, sócio e se precisa de contador.
 - **Teto e funcionários:** R$ 81 mil em 2026, R$ 110 mil em 2027, R$ 140 mil em 2028; 1 empregado em 2026 e até 2 a partir de 2027 (LC 238/2026).
 - **Sair do MEI:** desenquadramento, virar ME, o que muda depois, e a mudança de prazo em 2027.
 - **Baixa** do MEI e o que acontece com as dívidas.
@@ -67,7 +71,8 @@ npx skills add Clarki7/contador-mei-br
 Todas foram conferidas em **23/11/2026**:
 - Lei Complementar 123/2006
 - Lei Complementar 238/2026, que mudou o teto e o número de empregados
-- Resolução CGSN 140/2018 e seu Anexo XI, com as alterações das Resoluções CGSN 190 e 195/2026
+- Resolução CGSN 140/2018 e seu Anexo XI, com as alterações das Resoluções CGSN 190, 195 e 196/2026
+- Lei Complementar 214/2025 (reforma tributária) e Portaria Conjunta RFB/PGFN 740/2026 (perdão de dívidas)
 - Portal do Empreendedor (gov.br)
 - Portal do Simples Nacional
 - Perguntas e Respostas do MEI (Receita Federal)
@@ -87,7 +92,8 @@ Contadores que quiserem revisar o conteúdo são muito bem-vindos. O nome de que
 
 ## Próximos passos
 
-- Conferir no Diário Oficial os pontos marcados como "parcial".
+- Conferir os pontos que ainda estão como "parcial" (regras do CGSIM, nota de produto por estado).
+- Versões prontas para colar no ChatGPT, no Gemini e num Projeto do Claude, e calendário de prazos.
 - Regras de prefeitura das maiores capitais.
 - Atualização quando sair o salário mínimo de 2027 e a regulamentação da LC 238.
 

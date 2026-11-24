@@ -1,6 +1,6 @@
 {
   "name": "contador-mei-br",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Orientação para MEI no Brasil com regras conferidas em fonte oficial e link em cada resposta: DAS, DASN, ocupações/CNAE, nota fiscal, teto 2026-2028, sair do MEI para ME.",
   "author": { "name": "Clarki7", "url": "https://github.com/Clarki7" },
   "homepage": "https://github.com/Clarki7/contador-mei-br",
