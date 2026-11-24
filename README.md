@@ -93,4 +93,4 @@ Contadores que quiserem revisar o conteúdo são muito bem-vindos. O nome de que
 
 ## Autoria
 
-Feito pela [Express BC](https://expressbc.com), de Manaus (AM), como o primeiro projeto open source da empresa. Licença MIT: use, copie e melhore.
+Projeto pessoal e independente de [Clarki7](https://github.com/Clarki7), feito para ajudar quem é MEI. Não é serviço de contabilidade e não tem ligação com nenhuma empresa. Licença MIT: use, copie e melhore.
