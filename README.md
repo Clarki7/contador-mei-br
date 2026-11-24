@@ -29,6 +29,12 @@ Milhões de brasileiros são MEI, e a maioria não tem contador. Quem trava numa
 >
 > **Claude (com a skill):** Não existe ocupação de software no MEI. O Anexo XI da Resolução CGSN 140 não traz nenhum CNAE de 6201 a 6209 ([lista oficial](https://www8.receita.fazenda.gov.br/simplesnacional/arquivos/manual/anexo_xi.pdf)). Enquanto for MEI, registre só o que você de fato faz e que está na lista. Para formalizar o software, o caminho é sair do MEI e virar ME. Atenção ao prazo: pela regra que entra em vigor em 01/01/2027, um pedido feito em janeiro só valeria em 2028. Por isso, quem quer ser ME já em 2027 precisa pedir até 31/12/2026, no Portal do Simples Nacional. (A regra nova foi lida numa cópia não oficial: confira no portal antes de pedir.)...
 
+## Sem instalar nada: ChatGPT, Gemini e Claude.ai
+
+Crie o seu assistente em 5 minutos colando as instruções e enviando os arquivos oficiais: veja [versoes-prontas/COMO-USAR.md](versoes-prontas/COMO-USAR.md).
+
+**Calendário de prazos:** importe [versoes-prontas/prazos-mei.ics](versoes-prontas/prazos-mei.ics) no Google Agenda ou no celular (DAS todo dia 20, DASN até 31/05 e as datas de 2027).
+
 ## Como instalar
 
 ### Claude Code (recomendado)
@@ -93,7 +99,6 @@ Contadores que quiserem revisar o conteúdo são muito bem-vindos. O nome de que
 ## Próximos passos
 
 - Conferir os pontos que ainda estão como "parcial" (regras do CGSIM, nota de produto por estado).
-- Versões prontas para colar no ChatGPT, no Gemini e num Projeto do Claude, e calendário de prazos.
 - Regras de prefeitura das maiores capitais.
 - Atualização quando sair o salário mínimo de 2027 e a regulamentação da LC 238.
 

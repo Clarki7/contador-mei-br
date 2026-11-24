@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//contador-mei-br//prazos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Prazos do MEI
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VEVENT
+UID:das-mensal@contador-mei-br
+DTSTAMP:20261124T120000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Pagar o DAS do MEI
+DESCRIPTION:Vence todo dia 20 (o do mês anterior). Gere a guia só no PG
+ MEI ou no App MEI: https://www8.receita.fazenda.gov.br/SimplesNacional/A
+ plicacoes/ATSPO/pgmei.app . Se cair em fim de semana ou feriado\, vale o
+  próximo dia útil. Atraso: multa de 0\,33% ao dia até 20% + juros\, e
+  o mês não conta para o INSS. Fonte e mais detalhes: https://github.co
+ m/Clarki7/contador-mei-br
+TRANSP:TRANSPARENT
+RRULE:FREQ=MONTHLY;BYMONTHDAY=20
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pagar o DAS do MEI
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dasn-anual@contador-mei-br
+DTSTAMP:20261124T120000Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Entregar a DASN-SIMEI (declaração anual do MEI)
+DESCRIPTION:Prazo: 31/05\, mesmo sem faturamento. Informe a receita bruta
+  do ano anterior\, separada em comércio/indústria e serviços: https:/
+ /www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/DASNSIMEI.
+ app/Default.aspx . Multa mínima de R$ 50 se atrasar. Fonte e mais detal
+ hes: https://github.com/Clarki7/contador-mei-br
+TRANSP:TRANSPARENT
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=31
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Entregar a DASN-SIMEI (declaração anual do MEI)
+TRIGGER:-P15D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:desenquadramento-2026@contador-mei-br
+DTSTAMP:20261124T120000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Último dia para pedir para sair do MEI e ser ME em 2027
+DESCRIPTION:Quem quer ser microempresa (ME) já em 01/01/2027 deve pedir 
+ o desenquadramento por opção até hoje\, no Portal do Simples Nacional
+ . Pela regra nova\, pedido em 2027 só vale em 2028 (ponto parcial: conf
+ erir no portal). Recomendado falar com um contador antes. Fonte e mais d
+ etalhes: https://github.com/Clarki7/contador-mei-br
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Último dia para pedir para sair do MEI e ser ME em 2027
+TRIGGER:-P10D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mudancas-2027@contador-mei-br
+DTSTAMP:20261124T120000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:MEI: começam as regras de 2027
+DESCRIPTION:Teto de R$ 110 mil\; até 2 empregados\; nota fiscal passa a 
+ ser obrigatória (para pessoa física sem CNPJ\, vale a DASN ou 1 nota c
+ onsolidada por mês)\; perdão automático da parte do INSS do DAS venci
+ do até 13/10/2026 (Portaria Conjunta RFB/PGFN 740/2026). Fonte e mais d
+ etalhes: https://github.com/Clarki7/contador-mei-br
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:edital-pgfn-6-2026@contador-mei-br
+DTSTAMP:20261124T120000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Fim da adesão ao Edital PGFN 6/2026 (dívida ativa do MEI)
+DESCRIPTION:Prazo até 19h de hoje\, no Regularize (https://www.regulariz
+ e.pgfn.gov.br/)\, entrando com o CNPJ. Até 133 parcelas\, mínimo R$ 25
+  para o MEI\, desconto em juros e multas. Confira as condições no pró
+ prio Regularize. Fonte e mais detalhes: https://github.com/Clarki7/conta
+ dor-mei-br
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fim da adesão ao Edital PGFN 6/2026 (dívida ativa do MEI)
+TRIGGER:-P7D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:perdao-condicao-fim@contador-mei-br
+DTSTAMP:20261124T120000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Último DAS da condição do perdão (competência junho/2027)
+DESCRIPTION:O perdão da LC 238 só fica valendo se o DAS de janeiro a ju
+ nho de 2027 for pago em dia (vencimentos de fevereiro a julho de 2027). 
+ Este é o último. Fonte e mais detalhes: https://github.com/Clarki7/con
+ tador-mei-br
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Último DAS da condição do perdão (competência junho/2027
+ )
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
