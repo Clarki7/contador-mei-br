@@ -1,2 +1,2 @@
 * text=auto eol=lf
-*.ics text eol=crlf
+*.ics -text
